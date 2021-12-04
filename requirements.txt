@@ -1,7 +1,7 @@
 Flask==1.1.1
 gunicorn==19.9.0
 tensorflow-cpu
-opencv-python==3.4.10.37
+opencv-python-headless
 seaborn==0.11.2
 itsdangerous==1.1.0
 Jinja2==2.10.1
