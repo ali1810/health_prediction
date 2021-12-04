@@ -7,7 +7,7 @@ from flask import Flask, render_template , request,redirect,send_file
 import os,glob
 from flask.wrappers import Request
 import tensorflow as tf
-graph = tf.get_default_graph()
+#graph = tf.get_default_graph()
 #import threading
 from keras.models import load_model
 import seaborn as sns
