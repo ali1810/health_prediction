@@ -50,7 +50,7 @@ def test():
 
          #return "Thanks"
    #print(model)
-    return render_template('sub.html',solvent_text = "The Selected Cancer Desease is {}".format(select)) # just to see what select isprint(test.model)
+    return render_template('sub.html',solvent_text = "The Selected Cancer Disease is {}".format(select)) # just to see what select isprint(test.model)
 #threading.thread.start_new_thread(handle_sub_view, select)
 
 #@app.route('/predict', methods=['POST'])
